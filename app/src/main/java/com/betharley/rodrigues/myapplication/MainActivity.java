@@ -207,6 +207,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 final String expressionText = expression.getText().toString();
+//                String[] arrayDados = new String[10];
+//
+//                if( expressionText.contains("+") || expressionText.contains("\\+")){//SOMA
+//                    arrayDados = expressionText.split("\\+");
+//                    operacaoEscolhida = "\\+";
+//                }else
+//                if( expressionText.contains("-") ){//SUBTRAÇÃO
+//                    arrayDados = expressionText.split("-");
+//                    operacaoEscolhida = "-";
+//                }else
+//                if( expressionText.contains("÷") ){//DIVISÃO
+//                    arrayDados = expressionText.split("÷");
+//                    operacaoEscolhida = "÷";
+//                }else
+//                if( expressionText.contains("×") ){//MULTIPLICAÇÃO
+//                    arrayDados = expressionText.split("×");
+//                    operacaoEscolhida = "×";
+//                }
+//                String primeiro = arrayDados[1];
+
+
                 if ( expressionText.isEmpty() ){
                     expression.setText("0.");
                 }else{
